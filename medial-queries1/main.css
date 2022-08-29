@@ -1,3 +1,32 @@
 body {
   background: blanchedalmond;
 }
+.container > * {
+
+width: 600px;
+}
+.a {
+  border: 1px solid black;
+  text-align: center;
+  padding: auto;
+}
+
+.b {
+  border: 1px solid black;
+  text-align: center;
+  padding: auto;
+  margin-top: 10px;
+}
+
+.c {
+  border: 1px solid black;
+  text-align: center;
+  padding: auto;
+  margin-top: 10px;
+}
+@media (max-width: 600px) {
+  .container > * {
+    flex-direction: column;
+  }
+
+}

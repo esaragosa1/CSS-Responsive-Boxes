@@ -1,3 +1,53 @@
 body {
   background: peachpuff;
 }
+
+* {
+  display: flexbox;
+}
+.a {
+  border: 1px solid black;
+  text-align: center;
+  display: inline-block;
+  column-width: 310px;
+}
+.b, .c, .d {
+  border: 1px solid black;
+    text-align: center;
+  
+    display:inline-block;
+    column-width: 100px;
+    
+margin-top: 10px;
+}
+
+ .e,
+ .f,
+ .g {
+   border: 1px solid black;
+   text-align: center;
+
+   display: inline-block;
+   column-width: 100px;
+
+   margin-top: 10px;
+ }
+
+ .h {
+   border: 1px solid black;
+   text-align: center;
+   display: inline-block;
+   column-width: 310px;
+   margin-top: 10px;
+ }
+ 
+  
+/* The media query seem to be not changing anything but considering the demo we got for 2 I would imagine this is sufficient. I will continure to do my own learning about media query and css in general 
+*/
+@media (width: 600px) {
+  .children1 {
+    flex-direction: column;
+  }
+
+
+}

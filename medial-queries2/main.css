@@ -12,6 +12,33 @@ body {
 .flex {
   display: flex;
 }
+.a {
+  text-align: center;
+}
+.b {
+  padding: 5%; 
+  margin-top: 10px;
+ 
+  text-align: center;
+  height: 50%;
+}
+.c {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: .5%;
+  text-align: center;
+}
+.d { 
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: .5%;
+  text-align: center;
+}
+
+.e {
+  margin: auto;
+  text-align: center;
+}
 
 .flex>.parent {
   width: 75%;
@@ -30,7 +57,13 @@ body {
 }
 
 .f {
-  height: 100%;
+  padding: 8.5%;
+margin: auto;
+margin-left: .5%;
+margin-top: 10px;
+text-align: center;
+height: 93%;
+
 }
 
 @media (max-width: 600px) {
@@ -45,4 +78,8 @@ body {
   .flex>.parent-2 {
     width: 100%;
   }
+}
+
+@media and all {
+  
 }

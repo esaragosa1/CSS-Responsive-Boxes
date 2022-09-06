@@ -8,7 +8,7 @@ body {
   text-align: center;
   border: solid 1px black;
 }
-
+/* used individual class tags to create each bordered div*/
 .b {
 padding: 100px;
  
@@ -42,6 +42,8 @@ padding: 100px;
   flex:1;
 
 }
+/* @media used to replicate as closely as I am able to do so at the moment. I still
+ need to learn more about flexbox and using media queries.*/
 
 @media (max-width: 600px) {
   .flex {

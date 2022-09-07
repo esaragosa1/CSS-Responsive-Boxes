@@ -11,75 +11,80 @@ body {
   border: solid 1px black;
   text-align: center;
 }
-
-.flex {
+.parent {
+  display: flex;
+}
+.child-parent {
   display: flex;
 }
 
+.parent-2 {
+  display: flex;
+}
+
+
 .a {
-  text-align: center;
+  padding: 10px;
+
 }
 
 .b {
-  padding: 100px;
+
   margin-top: 10px;
-  max-width: 100%;
+  padding: 50px;
+  margin-right: 10px;
 
 }
 
 .c {
-  padding: 100px;
-    margin-top: 10px;
-    max-width: 100px;
+  margin-right: 10px;
+margin-top: 10px;
+  padding: 50px;
 }
 
 .d {
-  padding: 100px;
+  margin-right: 10px;
   margin-top: 10px;
-  max-width: 100%;
+    padding: 50px;
 }
 
 .e {
-  padding: 100px;
+  margin-right: 10px;
   margin-top: 10px;
-  max-width: 100%;
-  margin-left: 10px;
+    padding: 50px;
 }
 
 .f {
-  padding: 100px;
-  margin-top: 10px;
-  margin-left: 10px;
-  max-width: 100%;
+  margin-right: 10px;
+margin-top: 10px;
+  padding: 50px;
 }
 
 .g {
-  padding: 100px;
-   margin-top: 10px; 
-   margin-left: 10px;
-   max-width: 100%;
+  margin-right: 10px;
+  margin-top: 10px;
+  padding: 50px;
 }
 
 .h {
-  padding: 330px;
-  margin-top: 10px;
-  margin-right: 10px;
-  margin-left: 10px;
+ margin-top: 10px;
+  padding: 50px;
+align-self: flex-end;
+  
 }
-
-
-
-
-
 
 @media (max-width: 600px) {
   .flex {
     flex-direction: column;
   }
 
+  .flex>.parent {
+    width: 100%;
+  }
 
-
- 
+  .flex>.parent-2 {
+    width: 100%;
+  }
 }
 
 @media and all {}

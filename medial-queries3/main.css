@@ -1,78 +1,55 @@
-body {
- background: papayawhip;
-  box-sizing: border-box;
-}
+
 body {
   box-sizing: border-box;
   background: papayawhip;
 }
 
 .child {
-  border: solid 1px black;
-  text-align: center;
+  border: 1px solid black;
 }
-.parent {
+
+.flex {
   display: flex;
 }
+
+.flex>.parent {
+  width: 75%;
+}
+
+.flex>.parent-2 {
+  width: 25%;
+}
+
 .child-parent {
   display: flex;
 }
 
-.parent-2 {
-  display: flex;
-}
-
-
-.a {
-  padding: 10px;
-
-}
-
-.b {
-
-  margin-top: 10px;
-  padding: 50px;
-  margin-right: 10px;
-
+.child-parent>* {
+  flex: 1;
 }
 
 .c {
-  margin-right: 10px;
-margin-top: 10px;
-  padding: 50px;
-}
 
+}
 .d {
-  margin-right: 10px;
-  margin-top: 10px;
-    padding: 50px;
-}
 
+}
 .e {
-  margin-right: 10px;
-  margin-top: 10px;
-    padding: 50px;
+
+}
+.h {
+
+}
+.g {
+
 }
 
 .f {
-  margin-right: 10px;
-margin-top: 10px;
-  padding: 50px;
+  height: 100%;
 }
-
-.g {
-  margin-right: 10px;
-  margin-top: 10px;
-  padding: 50px;
+.child-parent2 {
+  display: flex;
 }
-
-.h {
- margin-top: 10px;
-  padding: 50px;
-align-self: flex-end;
-  
-}
-
 @media (max-width: 600px) {
   .flex {
     flex-direction: column;
@@ -87,4 +64,6 @@ align-self: flex-end;
   }
 }
 
-@media and all {}
+
+
+
